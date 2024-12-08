@@ -73,5 +73,67 @@ iniline static int a=0;
 int Person::a=0;
 ```
 
+## 3.2024.12.6 关于clash
+
+泡芙云报错
+
+![img](file:////home/xzq/.config/QQ/nt_qq_615972063dfe83ed7e1fa354147b3b64/nt_data/Pic/2024-12/Ori/ff0900f0e87e08a123781b36a046a55b.png)
+
+解决方法:
+
+如果有Repair的选项，直接点然后重启.
+
+如果没有:
+
+![image-20241206201113109](/home/xzq/.config/Typora/typora-user-images/image-20241206201113109.png)
+
+![img](file:////home/xzq/.config/QQ/nt_qq_615972063dfe83ed7e1fa354147b3b64/nt_data/Pic/2024-12/Ori/ccd841aec94de0384f1cce416f87973b.png)
+
+如果还有问题可以看这个文档
+
+[ 关于clash报错 ](https://blog.csdn.net/qq_62650410/article/details/132133333)
+
+## 4.视频播放报错[ WARN:0] global ./modules/videoio/src/cap_gstreamer.cpp (1100) open OpenCV | GStreamer warning: Cannot query video position: status=0, value=-1, duration=-1
+
+在获取fps的代码后加上
+
+``` c++
+ if (fps <= 0) {
+        fps = 30;  // 设置默认的帧率
+        }
+```
+
+视频即可正常播放
+
+==如果显示核心转储应该就是代码的问题和视频没关系==
+
+导致报错原因
+
+**1.视频文件损坏 **
+
+**2.GStream插件问题** 
+
+``` c++gst-inspect-1.0
+gst-inspect-1.0 //检查插件是否缺失
+```
+
+**3.视频格式本身不支持查询 **
+
+
+
+## 5.关于核心转储
+
+### 1.数组越界
+
+``` c++
+    cv::Mat img[3];
+    cv::split( frame, img);
+    cv::Mat r_b = img[3] - img[0]; //应该是img[2]-img[0] Mat img[3]中的3是元素的个数 最后一行的3是下标
+```
+
+
+
+
+
 
 

@@ -32,9 +32,9 @@ logs/*
 
 
 
-![image-20241208101222218](/home/xzq/.config/Typora/typora-user-images/image-20241208101222218.png)
+![镜像和容器的区别](https://github.com/cat418/wrong/blob/main/%E5%B0%8F%E8%8F%9C%E9%B8%A1picture/5.png)
 
-![image-20241208100603516](/home/xzq/.config/Typora/typora-user-images/image-20241208100603516.png)
+![不同的镜像类型](https://github.com/cat418/wrong/blob/main/%E5%B0%8F%E8%8F%9C%E9%B8%A1picture/3.png)
 
 ## 关于Docker
 
@@ -42,13 +42,13 @@ logs/*
 
 除了Docker还有Podman等容器化平台，有兴趣可查看下表
 
-![image-20241208100254159](/home/xzq/.config/Typora/typora-user-images/image-20241208100254159.png)
+![image-20241208100254159](https://github.com/cat418/wrong/blob/main/%E5%B0%8F%E8%8F%9C%E9%B8%A1picture/2.png)
 
 ## 关于Dckerfile
 
 ## 关于内存和存储空间的区别
 
-![image-20241208102344293](/home/xzq/.config/Typora/typora-user-images/image-20241208102344293.png)
+![区别](https://github.com/cat418/wrong/blob/main/%E5%B0%8F%E8%8F%9C%E9%B8%A1picture/1.png)
 
 ## 关于生命周期问题
 
@@ -56,4 +56,4 @@ logs/*
 
 #代码的生命周期是从代码创建到最终退役的完整过程。
 
-![image-20241208103203544](/home/xzq/.config/Typora/typora-user-images/image-20241208103203544.png)
+![作用](https://github.com/cat418/wrong/blob/main/%E5%B0%8F%E8%8F%9C%E9%B8%A1picture/4.png)

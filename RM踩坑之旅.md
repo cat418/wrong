@@ -77,7 +77,7 @@ int Person::a=0;
 
 泡芙云报错
 
-![img](file:////home/xzq/.config/QQ/nt_qq_615972063dfe83ed7e1fa354147b3b64/nt_data/Pic/2024-12/Ori/ff0900f0e87e08a123781b36a046a55b.png)
+![img](https://github.com/cat418/wrong/blob/main/RM%E8%B8%A9%E5%9D%91picture/1.png)
 
 解决方法:
 
@@ -85,9 +85,7 @@ int Person::a=0;
 
 如果没有:
 
-![image-20241206201113109](/home/xzq/.config/Typora/typora-user-images/image-20241206201113109.png)
-
-![img](file:////home/xzq/.config/QQ/nt_qq_615972063dfe83ed7e1fa354147b3b64/nt_data/Pic/2024-12/Ori/ccd841aec94de0384f1cce416f87973b.png)
+![image-20241206201113109](https://github.com/cat418/wrong/blob/main/RM%E8%B8%A9%E5%9D%91picture/2.png)
 
 如果还有问题可以看这个文档
 
